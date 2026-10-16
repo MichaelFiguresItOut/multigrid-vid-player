@@ -4,8 +4,8 @@ A full-screen multi-video grid player for comparing multiple videos side by side
 built for YouTube video production workflows where you need to watch several clips
 at the same time on the same screen.
 
-React port of the original Flask app (`claudegridv14.py`). No Python or server is
-required: it runs entirely in your browser and plays local MP4 files via object
+React port of an original Python Flask app. No Python or server is required: 
+it runs entirely in your browser and plays local MP4 files via object
 URLs, so nothing is uploaded anywhere.
 
 ## Features
