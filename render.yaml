@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: multigrid-vid-player
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python claudegridv14.py
+    healthCheckPath: /
